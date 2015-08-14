@@ -1,0 +1,94 @@
+
+@font-face {
+    font-family: HouseCasual; /* имя шрифта для CSS правил */
+    src: url(fonts/HouseCasual.otf);  /* проверяем наличие шрифта в ОС пользователя */
+  }
+#drop_file{
+    display:block;
+    width: 70%;
+    height: 100px;
+    margin: 10px auto;
+    text-align: center;
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(221, 232, 232, 0.6));
+    background-image: linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(221, 232, 232, 0.6));
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(221, 232, 232, 0.6));
+    background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(221, 232, 232, 0.6));
+    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(221, 232, 232, 0.6));
+    background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(221, 232, 232, 0.6));
+    border-radius: 20px;
+    box-shadow: 3px 5px 25px 5px  #988ce2;
+}
+
+#drop_file.hover{
+       margin-top: 25px;
+    background-image: linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(221, 232, 232, 1));
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(221, 232, 232, 1));
+    background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(221, 232, 232, 1));
+    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(221, 232, 232, 1));
+    background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(221, 232, 232, 1));
+}
+#drop_file.error{
+    background: red;
+}
+#input_file{
+    display: block;
+    margin: 20px auto;
+    text-align: center;    
+   
+}
+.dropText{
+    display: block;
+    margin: auto;
+    font-family: HouseCasual;
+    font-size: 60pt;    
+}
+.wait{
+    display: block;
+    font-family: HouseCasual;
+    font-size: 30pt;
+    text-align: center;
+}
+.loaded{
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    background: #50ed21;
+}
+
+button{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+#player{
+    display: block;
+    width: auto;
+    height: auto;
+}
+#trackName{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    width: 200px;
+    height: auto;
+    background: #190cd4;
+    color: #efefe5;
+    box-shadow: 0 0 50px 3px #ada4e4;
+    border-radius: 3px;
+}
+#visualizing,#gain{
+  display: block;
+  margin: 0 auto;
+}
+#buttons{
+ text-align: center
+}
+#equalizer{
+    margin: 10px;
+    text-align: center
+}
+#options table{
+    margin: 0 auto;
+}
